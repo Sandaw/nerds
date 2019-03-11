@@ -45,7 +45,7 @@ input[type="radio"].visually-hidden {
 .page-header__logo {
     display: block;
     padding-top: 50px;
-    
+    width: 165px;
 }
 
 .main-navigation {
@@ -53,18 +53,31 @@ input[type="radio"].visually-hidden {
     font-size: 16px;
     line-height: 30px;
     text-align: left;
+    box-sizing: border-box;
+    
 }
 
 .main-navigation__list {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
     margin: 0;
     padding: 0;
-    padding-left: 200px;
-    padding-right: 
+    width: 800px;
+    display: flex;
+    justify-content: flex-end;
+    
 }
 
 .main-navigation ul {
+    margin: 0;
+}
+
+.main-navigation li {
     list-style: none;
+    padding: 10px 0;
+    padding-left: 30px;
+    
 } 
+.main-navigation li:last-child {
+    padding-left: 280px;
+}

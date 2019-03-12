@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;    
-    min-width: 960px;
+    min-width: 1140px;
     font-family: Roboto, Arial, san-serif;    
 }
 
@@ -31,7 +31,7 @@ input[type="radio"].visually-hidden {
 }
 
 .container {
-    width: 940px;
+    width: 1120px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -39,48 +39,29 @@ input[type="radio"].visually-hidden {
 .page-header {
     min-height: 545px;
     background: lightgrey;
-    box-sizing: border-box;
+    
+}
+
+.wrapper-header {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .page-header__logo {
-    display: block;
     padding-top: 50px;
+    width: 160px;
+    display: flex;
 }
 
 .main-navigation {
     font-family: inherit;
     box-sizing: border-box;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.main-navigation__list {
-    font-family: inherit;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-size: 16px;
-    text-align: left;
-    line-height: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
     width: 800px;
     display: flex;
-    justify-content: flex-start;
-    margin-top: 75px;   
+    flex-wrap: wrap;
+    margin-top: 80px;
 }
 
-.main-navigation__list a {
-    font-family: inherit;
-    text-transform: uppercase;
-    font-size: 16px;
-    color: #000;
-    text-align: left;
-    line-height: 30px;
-}
-
-.main-navigation li {
-    list-style: none;    
+div, p, nav, li, a {
+    outline: red solid 1px;
 }

@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;    
-    min-width: 960px;
+    min-width: 1140px;
     font-family: Roboto, Arial, san-serif;    
 }
 
@@ -31,7 +31,7 @@ input[type="radio"].visually-hidden {
 }
 
 .container {
-    width: 940px;
+    width: 1120px;
     margin: 0 auto;
     padding: 0 10px;
 }
@@ -39,13 +39,18 @@ input[type="radio"].visually-hidden {
 .page-header {
     min-height: 545px;
     background: lightgrey;
-    box-sizing: border-box;
+    
+}
+
+.wrapper-header {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .page-header__logo {
-    display: block;
     padding-top: 50px;
-    width: 165px;
+    width: 160px;
+    display: flex;
 }
 
 .main-navigation {
@@ -54,30 +59,11 @@ input[type="radio"].visually-hidden {
     line-height: 30px;
     text-align: left;
     box-sizing: border-box;
-    
-}
-
-.main-navigation__list {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
     width: 800px;
     display: flex;
-    justify-content: flex-end;
-    
+    flex-wrap: wrap;
 }
 
-.main-navigation ul {
-    margin: 0;
-}
-
-.main-navigation li {
-    list-style: none;
-    padding: 10px 0;
-    padding-left: 30px;
-    
-} 
-.main-navigation li:last-child {
-    padding-left: 280px;
+div, p, nav, li, a {
+    outline: red solid 1px;
 }

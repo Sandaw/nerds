@@ -58,9 +58,13 @@ input[type="radio"].visually-hidden {
     width: 800px;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 80px;
-    margin-left: 203px;
-    vertical-align: middle;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    margin-top: 76px;
+    margin-left: 201px;
+    
+
 }
 
 .main-navigation a {
@@ -72,6 +76,16 @@ input[type="radio"].visually-hidden {
     color: #000000;
     text-transform: uppercase;
 }
+
+.main-navigation a:not(:first-child) {
+    margin-left: 46px;
+}
+
+.main-navigation a:last-child {
+    margin-left: 0;
+    margin-left: 286px;
+}
+
 
 div, p, nav, li, a {
     outline: red solid 1px;

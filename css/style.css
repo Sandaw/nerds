@@ -36,10 +36,17 @@ input[type="radio"].visually-hidden {
     padding: 0 10px;
 }
 
+.button {
+    background: #fb565a;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: Roboto, Arial, san-serif;
+    font-weight: bold;
+}
+
 .page-header {
     min-height: 545px;
     background: lightgrey;
-    
 }
 
 .wrapper-header {
@@ -95,7 +102,36 @@ input[type="radio"].visually-hidden {
 .features h1 {
     font-size: 55px;
     line-height: 55px;
+    padding: 0;
+    margin: 0;
 }
+
+.features p {
+    font-size: 16px;
+    line-height: 24px;
+    padding: 0;
+    margin: 0;
+    margin-top: 27px;
+}
+
+.features__button {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+    height: 50px;
+    line-height: 18px;
+    margin-top: 40px;
+}
+
+.slide {
+    display: none;
+}
+
+.slide:nth-child(1) {
+    display: block;
+  }
 
 div, p, nav, li, a {
     outline: red solid 1px;

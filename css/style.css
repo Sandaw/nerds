@@ -33,7 +33,7 @@ input[type="radio"].visually-hidden {
 .container {
     width: 1160px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 0 auto;
 }
 
 .button {
@@ -89,7 +89,7 @@ input[type="radio"].visually-hidden {
     align-items: flex-start;
 
     margin-top: 76px;
-    margin-left: 201px;
+    margin-left: 200px;
 }
 
 .main-navigation a {

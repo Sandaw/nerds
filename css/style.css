@@ -269,6 +269,48 @@ input[type="radio"].visually-hidden {
     background: url(../img/presentations.jpg) no-repeat;
 }
 
+.page-main {
+    margin-top: 80px;
+}
+
+.shop__item h2 {
+    font-size: 23px;
+    line-height: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    margin: 0;
+    padding: 0;
+    margin-top: 25px;
+}
+
+.shop__item p {
+    font-size: 16px;
+    line-height: 24px;
+
+    margin: 0;
+    margin-top: 17px;
+}
+
+.shop .order-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 50px;
+
+    padding: 0;
+    margin-top: 33px;
+}
+
+.shop__item:nth-child(2) .order-button {
+    background-color: #00ca74;
+}
+
+.shop__item:last-child .order-button {
+    background-color: #efc84a;
+}
+
 div, p, nav, li, a {
     outline: red solid 1px;
 }

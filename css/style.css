@@ -311,6 +311,20 @@ input[type="radio"].visually-hidden {
     background-color: #efc84a;
 }
 
+.about {
+    min-height: 525px;
+
+    display: flex;
+}
+
+.about-container {
+    width: 780px;
+}
+
+.condition {
+    width: 420px;
+}
+
 div, p, nav, li, a {
     outline: red solid 1px;
 }

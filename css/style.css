@@ -313,12 +313,23 @@ input[type="radio"].visually-hidden {
 
 .about {
     min-height: 525px;
+    margin-top: 120px;
 
     display: flex;
 }
 
-.about-container {
+.about-block {
     width: 780px;
+}
+
+.about-block h2 {
+    font-size: 45px;
+    line-height: 45px;
+}
+
+.about-block p {
+    font-size: 16px;
+    line-height: 24px;
 }
 
 .condition {

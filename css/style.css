@@ -325,16 +325,67 @@ input[type="radio"].visually-hidden {
 .about-block h2 {
     font-size: 45px;
     line-height: 45px;
+    margin: 0;
+    margin-top: 33px;
 }
 
 .about-block p {
     font-size: 16px;
     line-height: 24px;
+    margin: 0;
+    margin-top: 33px;
+}
+
+.about-block h3 {
+    margin: 0;
+    margin-top: 0px;
+    margin-top: 40px;
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.advance-list {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.advance-list li {
+    margin: 0;   
+    position: relative; 
+}
+
+.advance-list li:first-child {
+    margin-top: 26px;
+    margin-left: 36px;
+}
+
+.advance-list li:nth-child(2) {
+    margin-top: 29px;
+    margin-left: 36px;
+}
+
+.advance-list li:last-child {
+    margin-top: 29px;
+    margin-left: 36px;
+}
+
+.advance-list li::before {
+    content: "";
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    top: 9px;
+    left: -35px;
+    background-color: #ee3643;
 }
 
 .condition {
     width: 420px;
 }
+
 
 div, p, nav, li, a {
     outline: red solid 1px;
